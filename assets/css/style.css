@@ -58,3 +58,47 @@ a{
 #email{
     padding-right: 100px;
 }
+
+main{
+    display: flex;
+}
+
+#left-column{
+    width: 350px;
+    padding-right: 3em;    
+}
+#left-column p{
+    color: white;
+    padding-left: 20px;
+    font-family:'Raleway',serif;
+    text-indent: 50px;
+    text-align: justify;       
+}
+#left-column ul{
+    color: white;
+    font-family: 'Raleway',serif;
+}
+
+#right-column{
+    width: 950px;
+    background-color: white;
+    border-right-style:outset;
+    padding: 0 20px 0 30px;
+}
+#right-column article:hover{
+    border-right:0.4em solid #782221 ;
+    
+    
+}
+#right-column h2{
+    border-left :0.4rem solid #782221 ;
+    padding-left:0.2em;
+}
+#right-column p{
+    font-family: 'Raleway',serif;
+    font-weight: 900;    
+}
+#right-column ul{
+    font-family: 'Raleway',serif;
+    font-weight: 900;
+}
