@@ -16,7 +16,20 @@ url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0
     background-color:#782221;
 }
 
+h1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
 header{
     text-align: center;
     padding: 2em;
+}
+
+#photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px#dbc2a4;
+    cursor: zoom-in;
 }
