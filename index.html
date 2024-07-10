@@ -3,117 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae FranckM</title>
+    <title>Curriculum Vitae Franck MENIL</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/pictures/favicon.png">
     <link rel="shortcut icon" type="image/png" href="./assets/pictures/favicon.png">
 </head>
 
 <body>
-    <div id="cv-container">
-
+    <div class="container">
         <header>
-            <a href="./assets/pictures/FranckM.jpg"><img src="./assets/pictures/FranckM mini.jpg" alt="Photo FranckM mini" id="photo"></a>
+            <a href="./assets/pictures/FranckM.jpg" target="_blank"><img src="./assets/pictures/FranckM-mini.jpg" alt="Photo FranckM mini" id="photo"></a>
             <h1>FRANCK MENIL</h1>
-            <h1>Développeur Web junior</h1>
+            <div class="sous-titre">Développeur Web junior</div>
+            <adress class="contact">
+                <a href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8744643,-0.7546503,16.75z/data=!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu" target="_blank">12 , rue des Oliviers <br> 53200 La Roche-Neuville</a>
+                <a id="email" href="mailto:franckmenil@gmail.com" target="_blank">franckmenil@gmail.com</a>
+                <a href="tel:0606060606" target="_blank">0606060606</a>
+            </adress>
         </header>
 
-        <div id="contact">
-            <a href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8744643,-0.7546503,16.75z/data=!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu">12 , rue des Oliviers <br> 53200 La Roche-Neuville</a>
-            <a id="email" href="mailto:franckmenil@gmail.com">franckmenil@gmail.com</a>
-            <a href="tel:0606060606">0606060606</a>
-        </div>
-
         <main>
-            <section id="left-column">
-                <h2>A propos</h2>
-                <p> De nature débrouillard et indépendant
+            <section class="left-column">
+                <aside>
+                    <h2>A propos</h2>
+                    <p> De nature débrouillard et indépendant
                         dans mon travail, j’aime apprendre de nouvelles 
                         technologies, passer du temps à résoudre des 
                         problèmes et réaliser du travail de qualité . Mes valeurs de travail
                         : flexibilité , performance et serieux.
-                </p> 
-                <h2>Langues parlées</h2>
-                <ul>
-                    <li>Français - Langues maternelle</li>
-                    <li>Anglais - Intermédiaire</li>
-                </ul>
-                <h2>Centres d'interêt</h2>
-                <ul>
-                    <li>Musiques</li>
-                    <li>Tennis</li>
-                    <li>Voyages</li>
-                </ul>
-            </section>
-            <section id="right-column">
-                <article>
-                    <h2>Expériences professionnelles</h2>
-                    <h3>Senior Field Engineer chez INDIGO </h3>
-                    <p>2021-2022</p>
+                    </p> 
+                    <h2>Langues parlées</h2>
                     <ul>
-                        <li>Installation, configuration et maintenance d’équipements réseaux
+                        <li>Français - Langues maternelle</li>
+                        <li>Anglais - Intermédiaire</li>
+                    </ul>
+                    <h2>Centres d'interêt</h2>
+                    <ul>
+                        <li>Musiques</li>
+                        <li>Tennis</li>
+                        <li>Voyages</li>
+                    </ul>
+                </aside>
+            </section>
+            
+            <section class="right-column">
+                <div>
+                    <article>
+                        <h2>Expériences professionnelles</h2>
+                        <h3>Senior Field Engineer chez INDIGO </h3>
+                        <p>2021-2022</p>
+                        <ul>
+                            <li>Installation, configuration et maintenance d’équipements réseaux
                                 Serveur HP, DELL, équipement WDM CIENA, NOKIA.
                                 Client Google, Facebook, Viatel …
-                        </li>
-                    </ul>
-                    <h3>Expert Technique chez SFR</h3>
-                    <p>2018-2021</p>
-                    <ul>
-                        <li>Maintenance réseaux B2B, FTTB, FTTH</li>
-                        <li>Relation client</li>
-                        <li>Mise a jour base de données technique et Route Optique ( NETGEO )</li>
-                    </ul>
-                    <h3>Expert Technique chez COMPLETEL</h3>
-                    <p>2012-2018</p>
-                    <ul>
-                        <li>Installation, configuration et maintenance réseaux B2B</li>
-                        <li>Chef de projet B2B</li>
-                        <li>Relation client</li>
-                    </ul>
-                    <h3>Technicien Telecom chez NETWORKS - SERVICIES</h3>
-                    <p>2005-2012</p>
-                    <ul>
-                        <li>Installateur, commissioneur NORTEL NETWORKS</li>
-                        <li>Deploiement WDM et SDH France Telecom, TD, COLT au niveau
-                        national et international</li>
-                        <li>Deploiement DATA Passeport 7K, 15K, pour TRANSPAC, LDCOM</li>
-                        <li>Formation réseaux IP</li>
-                    </ul>
-                    <h3>Technicien Telecom chez S2EI</h3>
-                    <p>2002-2005</p>
-                    <ul>
-                        <li>Installation, tout type d'équipements NORTEL NETWORKS</li>
-                        <li>Tout types de cablages, Ethernet, E1, Splicing, Fibres optiques</li>
-                    </ul>
-                </article>
-                <article>
-                    <h2>Diplômes/Formations</h2>
-                    <h3>Ecole de Formation à la Vente</h3>
-                    <p>1996-1998</p>
-                    <p>Ecole EUGENE DUCRUET 
-                    Boulogne Billancout</p>
-                    <h3>Bac Professionnel Electro-Technique</h3>
-                    <p>1993-1996</p>
-                    <p>Lycée Varennes-sur-seine Gustave Eiffel</p>
-                </article>
-                <article>
-                    <h2>Compétences</h2>
-                    <ul>
-                        <li>Technologies WDM / SDH - Expert</li>
-                        <li>HTML 5 - Débutant</li>
-                        <li>CSS 3 - Débutant</li>
-                        <li>GitHub - Débutant</li>
-                    </ul>
-                </article>
-            </section>
+                            </li>
+                        </ul>
+                        <h3>Expert Technique chez SFR</h3>
+                        <p>2018-2021</p>
+                        <ul>
+                            <li>Maintenance réseaux B2B, FTTB, FTTH</li>
+                            <li>Relation client</li>
+                            <li>Mise a jour base de données technique et Route Optique ( NETGEO )</li>
+                        </ul>
+                        <h3>Expert Technique chez COMPLETEL</h3>
+                        <p>2012-2018</p>
+                        <ul>
+                            <li>Installation, configuration et maintenance réseaux B2B</li>
+                            <li>Chef de projet B2B</li>
+                            <li>Relation client</li>
+                        </ul>
+                        <h3>Technicien Telecom chez NETWORKS - SERVICIES</h3>
+                        <p>2005-2012</p>
+                        <ul>
+                            <li>Installateur, commissioneur NORTEL NETWORKS</li>
+                            <li>Deploiement WDM et SDH France Telecom, TD, COLT au niveau
+                            national et international</li>
+                            <li>Deploiement DATA Passeport 7K, 15K, pour TRANSPAC, LDCOM</li>
+                            <li>Formation réseaux IP</li>
+                        </ul>
+                        <h3>Technicien Telecom chez S2EI</h3>
+                        <p>2002-2005</p>
+                        <ul>
+                            <li>Installation, tout type d'équipements NORTEL NETWORKS</li>
+                            <li>Tout types de cablages, Ethernet, E1, Splicing, Fibres optiques</li>
+                        </ul>
+                         
+                    </article>
+
+                    <article>
+                        <h2>Diplômes/Formations</h2>
+                        <h3>Ecole de Formation à la Vente</h3>
+                        <p>1996-1998</p>
+                        <h4>Ecole EUGENE DUCRUET 
+                        Boulogne Billancout</h4>
+                        <h3>Bac Professionnel Electro-Technique</h3>
+                        <p>1993-1996</p>
+                        <h4>Lycée Varennes-sur-seine Gustave Eiffel</h4>
+                        
+                    </article>
+                    
+
+                    <article>
+                        <h2>Compétences</h2>
+                        <ul>
+                            <li>Technologies WDM / SDH - Expert</li>
+                            <li>HTML 5 - Débutant</li>
+                            <li>CSS 3 - Débutant</li>
+                            <li>GitHub - Débutant</li>
+                        </ul>
+                       
+                    </article>
+                </div>
+            </section>    
         </main>
 
         <footer>
-            <a href="https://www.linkedin.com/feed/"><img src="./assets/pictures/linkedin.png" alt="linkedin"></a>
-            <a href="https://github.com/dashboard"><img src="./assets/pictures/github.png" alt="github"></a>
-            <p>Dernière mise a jour le 17 Avril 2024.</p>
+            <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./assets/pictures/linkedin.png" alt="Logo cliquable de linkedIn"></a>
+            <a href="https://github.com/FranckMenil" target="_blank"><img src="./assets/pictures/github.png" alt="Logo cliquable de github"></a>
+            <a href="https://x.com/home" target="_blank"><img src="./assets/pictures/X.jpg" alt="Logo cliquable de X"></a>
+            <p>Dernière mise a jour le 04 Juillet 2024<time datetime="2024-07-04"></time></p>
         </footer>
-
     </div>
 </body>
 
